@@ -15,8 +15,6 @@ public partial class Trip
 
     public string? Country { get; set; }
 
-    public string? LocationUrl { get; set; }
-
     public string? TripName { get; set; }
 
     public string? Description { get; set; }
@@ -32,6 +30,10 @@ public partial class Trip
     public DateTime? ReservationDeadLine { get; set; }
 
     public decimal? Price { get; set; }
+
+    public string? Longitude { get; set; }
+
+    public string? Latitude { get; set; }
 
     public virtual ApplicationUser? CreatedByNavigation { get; set; }
 
